@@ -154,7 +154,7 @@ body_theme4
                                     <span class="input-group-btn">
                                     <button type="submit"><i class="icon-search"></i></button>
                                     </span>
-                                    <input class="form-control" type="text" data-target="{{route('front.search.suggest')}}" id="__product__search" name="search" placeholder="{{__('Search by product name')}}">
+                                    <input class="form-control" type="text" data-target="{{route('front.search.suggest')}}" id="__product__search" name="search" placeholder="{{__('Search by product name..')}}">
                                     <div class="serch-result d-none">
                                        {{-- search result --}}
                                     </div>
